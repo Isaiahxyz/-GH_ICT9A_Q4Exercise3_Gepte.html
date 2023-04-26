@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator cm to ft, 1 centimeter is 0.0328084 feet</title>
+</head>
+<body>
+      <input type="text" id="id1" placeholder="Enter the first number"><br>
+      <input type="text" id="id2" placeholder="Enter the second number"><br>
+      <input type="submit" value="compute" onclick="myFunction()"><br>
+      <p id="answer"></p>
+      <script>
+      	function myFunction() {
+                  var num1 = document.getElementaryById('id1').value;
+                  var num2 = document.getElementaryById('id2').value;
+                  var answer = Number(num1) * Number(num2);
+                  document.getElementById('answer').innerHTML = "The product is" + answer;
+      	}
+      </script>
+</body>
+</html>	
